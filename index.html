@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Star Wars Quiz</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>CLICK START. <br>May the force be with you!</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Tips from Master YODA:</span></div>
+        <div class="info-list">
+            <div class="info">1. From Star Wars franchise, all questions will come.</div>
+            <div class="info">2. 5-item multiple choice quiz, this is.</div>
+            <div class="info">3. <span>15 seconds</span> for each question, you have.</div>
+            <div class="info">4.  Result at the end, you shall see.</div>
+            <div class="info">No matter what, Walk to the DARK SIDE, you should NOT!</div>
+
+        </div>
+        <div class="buttons">
+            <button class="quit">Quit</button>
+            <button class="restart">Proceed</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">STAR WARS QUIZ</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">NEXT</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Try Again</button>
+            <button class="quit">Quit</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+</body>
+</html>
